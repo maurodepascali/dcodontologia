@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import  Navbar  from './components/Navbar';
+import  BotonesRedesSociales  from './components/BotonesRedesSociales';
+import  Footer  from './components/Footer';
+import  Hero  from './components/Hero';
+import  Nosotros  from './pages/Nosotros';
+import  Tratamientos  from './pages/Tratamientos';
+import  Testimonios  from './pages/Testimonios';
+import  Casos  from './pages/Casos';
+import PreguntasFrecuentes from './pages/Preguntas';
+import  Resenas  from './pages/Resenas';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <main>
+        <section id="inicio">
+          <Hero />
+        </section>
+        <section id="nosotros">
+          <Nosotros />
+        </section>
+        <section id="tratamientos">
+          <Tratamientos />
+        </section>
+        <section id="casos">
+          <Casos />
+        </section>
+        <section id="preguntas">
+          <PreguntasFrecuentes />
+        </section>
+        <BotonesRedesSociales />
+      </main>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;

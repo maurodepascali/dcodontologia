@@ -1,0 +1,22 @@
+/* About.css */
+.about-section {
+    background: linear-gradient(to bottom, #ffffff, #f8fafc);
+  }
+  
+  .about-section img {
+    transition: transform 0.3s ease;
+  }
+  
+  .about-section img:hover {
+    transform: scale(1.02);
+  }
+  
+  @media (max-width: 1024px) {
+    .about-section .container {
+      padding: 0 1rem;
+    }
+    
+    .about-section img {
+      max-height: 400px;
+    }
+  }
