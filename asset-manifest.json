@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dcodontologia/static/css/main.32c98647.css",
+    "main.js": "/dcodontologia/static/js/main.853b8426.js",
+    "static/js/453.ec07b401.chunk.js": "/dcodontologia/static/js/453.ec07b401.chunk.js",
+    "static/media/odontologa.png": "/dcodontologia/static/media/odontologa.2866a5fa40517f99b892.png",
+    "static/media/arreglo.jpg": "/dcodontologia/static/media/arreglo.7263bdc014c74529717d.jpg",
+    "static/media/rehabilitacion.jpg": "/dcodontologia/static/media/rehabilitacion.c2f0c8d133c7a91b3400.jpg",
+    "static/media/logo2.png": "/dcodontologia/static/media/logo2.f7426503f6c4fb009a8f.png",
+    "static/media/sinarreglo.jpg": "/dcodontologia/static/media/sinarreglo.f3aea2a54dfc695f26ad.jpg",
+    "index.html": "/dcodontologia/index.html",
+    "main.32c98647.css.map": "/dcodontologia/static/css/main.32c98647.css.map",
+    "main.853b8426.js.map": "/dcodontologia/static/js/main.853b8426.js.map",
+    "453.ec07b401.chunk.js.map": "/dcodontologia/static/js/453.ec07b401.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32c98647.css",
+    "static/js/main.853b8426.js"
+  ]
+}
